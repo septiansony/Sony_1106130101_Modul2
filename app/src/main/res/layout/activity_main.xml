@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sony.sony_1106130101_modul2.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200"
+        android:layout_height="26dp"
+        android:text="Pilih Menu:"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <RadioButton
+        android:id="@+id/dinein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dine In"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <RadioButton
+        android:id="@+id/takeaway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Away"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Button
+        android:id="@+id/pesansekarangbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Sekarang"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="256dp" />
+</android.support.constraint.ConstraintLayout>
